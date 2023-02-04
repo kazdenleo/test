@@ -9,25 +9,6 @@
 <body>
 	<section class="main">
 		<div class="age">
-			<div class="people">
-				<h6 class="people__name">Андрей</h6>
-				<P class="people__married">Муж</p>
-				<P class="people__id">Муж</p>
-					<P class="people__partner">Муж</p>
-				<button type="button" class="people__button">Добавить1</button>
-			</div>
-			<div class="people">
-				<h6 class="people__name">Андрей</h6>
-				<P class="people__married">Муж</p>
-				<P class="people__id">Муж</p>
-					<P class="people__partner">Муж</p>
-				<button type="button" class="people__button">Добавить2</button>
-			</div>
-		</div>
-	</section>
-
-	<!--<section class="main">
-		<div class="age">
 			<template class="template" id="template">
 				<div class="people">
 					<h6 class="people__name">Андрей</h6>
@@ -38,28 +19,17 @@
 				</div>
 			</template>
 		</div>
-	</section>-->
+	</section>
 	
-	<form class="form form_active">
-		<!--<img src="./img/exit.png" class="people__exit">-->
+	<form class="form">
+		<img src="./img/exit.png" class="people__exit">
 		<label>Введите имя:</label>
 		<input class="form__name" type="text" name="name" id="name">
 		<div class="married">
 			<label><input type="radio" name="married" value="Муж"> - Муж</label>
 			<label><input type="radio" name="married" value="Жена"> - Жена</label>
 		</div>
-		<button type="button" class="form__button">1</button>
-	</form>
-
-	<form class="form form2 form_active">
-		<!--<img src="./img/exit.png" class="people__exit">-->
-		<label>Введите имя:</label>
-		<input class="form__name" type="text" name="name" id="name">
-		<div class="married">
-			<label><input type="radio" name="married" value="Муж"> - Муж</label>
-			<label><input type="radio" name="married" value="Жена"> - Жена</label>
-		</div>
-		<button type="button" class="form__button">2</button>
+		<button type="button" class="form__button">Добавить</button>
 	</form>
 	<script type="module" src="./js/script.js"></script>
 </body>

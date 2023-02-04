@@ -37,15 +37,16 @@ export class Popup{
         });*/
 
 
-
-        /*formButton.addEventListener('click', (event) => {
+        
+        const formButton = document.querySelector('.form__button');
+        formButton.addEventListener('click', (event) => {
             console.log(this._peopleId);   
             event.preventDefault();
             const newAdd = this._findPeopleInfo();
             console.log(newAdd);
             const peppe = (new AddPeople(newAdd)).addNewPeople();
             this.close();
-        });*/
+        });
     }
 
     _findPeopleInfo() {
